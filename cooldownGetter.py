@@ -1,7 +1,7 @@
 import json
 import requests
 
-patchId = "14.3.1"
+patchId = "14.3.1" #Update this whenever a new patch comes out
 
 
 def getSpellKey(i):
