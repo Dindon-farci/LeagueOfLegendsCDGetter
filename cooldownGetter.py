@@ -18,7 +18,6 @@ def getCooldowns(championId):
     output = f"{championName}'s cooldowns : \n"
     i = 0
     for spell in data["spells"]:
-        print(type(spell))
         output += f"[{getSpellKey(i)}] {spell["name"]} cooldown: {spell["cooldown"]}\n"
         i+=1
     return output
